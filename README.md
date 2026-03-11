@@ -38,17 +38,23 @@ The final visualization was built to communicate the "Travel-First" strategy to 
 
 File: eda_exploratory_analysis.sql
 
+Link: https://github.com/camjames2003-del/novapass-rewards-strategy/blob/98bc2dc613a01a67681413ad0aa88414939b66ae/eda_exploratory_analysis.sql
+
 In this phase, I audited 10,001 transactions and 2,500 customers to identify data quality traps. I uncovered 121 duplicate IDs, 498 NULL categories, 208 orphaned records (transactions without valid customers), and 54 "time-traveling" transactions that were logged before an account was even opened.
 
 ## 2. SQL: Data Cleaning
 
 File: data_cleaning.sql
 
+Link: https://github.com/camjames2003-del/novapass-rewards-strategy/blob/98bc2dc613a01a67681413ad0aa88414939b66ae/data_cleaning.sql
+
 In this phase, I built a unified cleaned data set using a Master CTE to transform messy raw logs into a validated source. I used RegEx to clean numeric fields, parsed complex strings to separate city and device data, and implemented a custom exchange rate engine to normalize five local currencies into a unified USD base. Finally, I enforced strict data integrity by deduplicating records and removing orphaned or logically impossible "time-traveling" transactions through targeted filters and Joins.
 
 ## 3. SQL: Strategic Data Analysis
 
 File: strategic_analysis.sql
+
+Link: https://github.com/camjames2003-del/novapass-rewards-strategy/blob/98bc2dc613a01a67681413ad0aa88414939b66ae/strategic_analysis.sql
 
 In this final layer, I translated the cleaned data into business intelligence. I used window functions to rank VIP customers and calculated percentage-of-total metrics for spend categories and geographical hotspots. I developed a custom mapping logic to identify cross-border transactions, which revealed a surprise 83% international travel spend. Finally, I segmented data into spend brackets to prove that high-value purchases (>$100) drive 78% of revenue, providing the mathematical foundation for the proposed 3/2/1 rewards tier structure.
 
