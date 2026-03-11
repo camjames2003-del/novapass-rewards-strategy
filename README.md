@@ -1,6 +1,6 @@
 # NovaPass Rewards Strategy Analysis
 
-A data-driven case study analyzing 9,646 transactions to optimize a fintech rewards program for the Latin American market.
+A data-driven case study analyzing transaction data to optimize a fintech rewards program for the Latin American market.
 
 ## 📋 Project Index
 
