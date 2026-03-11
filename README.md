@@ -30,7 +30,7 @@ Business Question: Based on transaction data, what specific spending tiers and c
 
 The final visualization was built to communicate the "Travel-First" strategy to stakeholders.
 
-View Full Dashboard Image in: NovaBank Dashboard.png file
+![Nova Bank Executive Dashboard](NovaBankDashboard.png)
 
 ## 💻 SQL Workflows
 
