@@ -1,6 +1,6 @@
 # NovaBank Rewards Strategy Analysis
 
-A data-driven case study analyzing transaction data to optimize a fintech rewards program for the Latin American market.
+This case study reveals how a deep dive into $1.16M of transaction data uncovered a 'Profitability Paradox' where 79% of revenue was driven by just 33% of swipe volume.
 
 ## 📋 Project Index
 
@@ -22,9 +22,11 @@ A data-driven case study analyzing transaction data to optimize a fintech reward
 
 ## 🎯 Executive Summary
 
+Context: NovaBank is a fintech leader in the Latin American market, currently focused on scaling its premium credit card product, NovaPass, to high-net-worth users across the region.
+
 Business Problem: NovaBank’s current flat 1.5x rewards model is uncompetitive and fails to optimize profit margins. Transitioning to a dynamic tiering system is essential to capture high-value market segments.
 
-Business Question: Based on transaction data, what specific spending tiers and categories will maximize customer engagement while maintaining sustainable revenue?
+Business Question: Based on transactional data, what specific spending tiers and categories will maximize customer engagement while maintaining sustainable revenue?
 
 ## 📊 Executive Dashboard
 
