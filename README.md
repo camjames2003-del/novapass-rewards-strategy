@@ -1,4 +1,4 @@
-# NovaPass Rewards Strategy Analysis
+# NovaBank Rewards Strategy Analysis
 
 A data-driven case study analyzing transaction data to optimize a fintech rewards program for the Latin American market.
 
