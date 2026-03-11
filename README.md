@@ -78,6 +78,8 @@ Implement 3/2/1 Reward Tiers: Use a tiered structure (3x Travel, 2x Daily Habits
 
 File: NovaPass Rewards Strategy Case Study.ppx
 
+Link: https://docs.google.com/presentation/d/105YYNOaO0ogX7GFscFzfp51FUhSNkpj3I1ECe40Pass/edit?usp=sharing
+
 This 12-slide executive presentation details the strategic shift from a flat rewards model to a data-backed 3/2/1 tiered system. It bridges technical SQL analysis with business storytelling, highlighting key insights on international spending patterns and high-value revenue concentration to justify the new NovaPass brand identity.
 
 
